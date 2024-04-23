@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://static.nike.com/a/images/w_1920,c_limit/a453a3d7-c472-4461-a20b-d2e2cdc09518/descobreix-els-millors-models-de-sabatilles-voluminoses-nike.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+    
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+nav:first-of-type {
+    background-color: #fff; 
+}
+
+nav:last-of-type {
+    background-color: rgb(221, 96, 12); 
+}
+nav ul li a:hover {
+    color: #fff;
+    background-color: #333;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
